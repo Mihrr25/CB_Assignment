@@ -1,0 +1,55 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-name {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.product-brand {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.product-price {
+  margin: 10px 0;
+}
+
+.price-mrp {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 10px;
+}
+
+.price-discounted {
+  font-size: 1.2em;
+  color: #e63946;
+}
+
+.discount-label {
+  font-size: 0.9em;
+  color: #4caf50;
+}
